@@ -1,55 +1,92 @@
 <!DOCTYPE html>
 
-<!-- BLOGS page -->
+<!-- BLOGS PAGE -->
 
 <html>
 
  <head>
   <title>SRR - Blogs</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
  </head>
 
   <body>
 
-    <h1>Sydney Rossman-Reich</h1>
+    <header>
+      <a href="index.html" id="logo">
+      <h1>Sydney Rossman-Reich</h1>
+      </a>
+    </header>
 
+  <section class="navbar">
     <nav>
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/projects">Projects</a></li>
-        <li><a href="/blogs">Blogs</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/resume">Resume</a></li>
-        <li><a href="mailto:srossmanreich@gmail.com?Subject=Hello" target="_top">Contact</a></li>
+        <span class="left-nav">
+          <li><a href="/">Home</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/blogs">Blogs</a></li>
+          <li><a href="/about">About</a></li>
+        </span>
+        <span class="right-nav">
+          <li><a href="/resume">Resume</a></li>
+          <li><a href="mailto:srossmanreich@gmail.com?Subject=Hello" target="_top">Contact</a></li>
+        </span>
       </ul>
     </nav>
+    </section>
 
+  <div class="main-blog">
     <section id="DBC Blog">
-      <p><a href="git.html"><strong>DBC Blog</strong></a></p>
-      <a href="git.html"><img alt="DBC Blog" src="/imgs/DBClogo.jpg"></a>
-      <ul>
-        <li><a href="git.html">Dev Bootcamp Phase 0 - Week 1: Expectation =/= Reality</a></li>
-        <li>TBD</li>
-        <li>TBD</li>
+      <ul> 
+        <li id="DBC-left"> 
+          <p><a href="git.html"><strong>DBC Blog</strong></a></p>
+          <a href="git.html"><img alt="DBC Blog" src="../imgs/DBClogo.jpg"></a>
+        </li>
+        <li>
+          <ul class="posts">
+            <li><a href="git.html">Dev Bootcamp Phase 0 - Week 1: Expectation =/= Reality</a></li>
+            <li>TBD</li>
+            <li>TBD</li>
+          </ul>
+        </li>
       </ul>
     </section>
+
+    <div></div>
 
     <section id="Personal Blog">
-      <p><a href="http://srossmanreich.com"><strong>Personal Blog</strong></a></p>
-      <a href="http://srossmanreich.com"><img alt="Personal Blog" src="/imgs/sydneycow.png"></a>
       <ul>
-        <li><a href="http://srossmanreich.com/2015/12/07/remember-that-time-i-was-bad-at-blogging/">Remember that time I was bad at blogging (11/11 - 12/6/2015)</a></li>
-        <li><a href="http://srossmanreich.com/2015/11/10/in-threes/">In threes (10/21 - 11/10/2015)</a></li>
-        <li><a href="http://srossmanreich.com/2015/10/19/goodbye-japan/">Goodbye Japan (10/14 - 10/20/2015)</a></li>
+        <li id="Pers-left">
+          <p><a href="http://srossmanreich.com"><strong>Personal Blog</strong></a></p>
+          <a href="http://srossmanreich.com"><img alt="Personal Blog" src="../imgs/sydneycow.png"></a>
+        </li>
+        <li>
+          <ul class="posts">
+            <li>
+              <a href="http://srossmanreich.com/2015/12/07/remember-that-time-i-was-bad-at-blogging/">Remember that time I was bad at blogging (11/11 - 12/6/2015)</a>
+            </li>
+            <li>
+              <a href="http://srossmanreich.com/2015/11/10/in-threes/">In threes (10/21 - 11/10/2015)</a>
+            </li>
+            <li>
+              <a href="http://srossmanreich.com/2015/10/19/goodbye-japan/">Goodbye Japan (10/14 - 10/20/2015)</a>
+            </li>
+          </ul>
+        </li>
       </ul>
     </section>
+  </div>
 
-  </body>
+  <div></div>
 
   <footer>
-    <a href="https://www.linkedin.com/in/sydneyrossmanreich"><img alt="LinkedIn" src="/imgs/LinkedIn.png"></a>
-    <a href="https://twitter.com/Sydkick"><img alt="Twitter" src="/imgs/Twitter.jpeg"></a>
-    <a href="mailto:srossmanreich@gmail.com?Subject=Hello" target="_top"><img alt="Email" src="/imgs/email.png"></a>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/sydneyrossmanreich"><img alt="LinkedIn" src="../imgs/LinkedIn.png"></a></li>
+      <li><a href="https://twitter.com/Sydkick"><img alt="Twitter" src="../imgs/Twitter.jpeg"></a></li>
+      <li><a href="mailto:srossmanreich@gmail.com?Subject=Hello" target="_top"><img alt="Email" src="../imgs/email.jpg"></a></li>
+    </ul>
   </footer>
 
+ </body>
 
 </html>

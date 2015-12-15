@@ -6,45 +6,61 @@
 
  <head>
   <title>Sydney Rossman-Reich</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
  </head>
 
   <body>
 
+  <header>
+    <a href="index.html" id="logo">
     <h1>Sydney Rossman-Reich</h1>
+    </a>
+  </header>
 
+
+  <section class="navbar">
     <nav>
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/projects">Projects</a></li>
-        <li><a href="/blogs">Blogs</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/resume">Resume</a></li>
-        <li><a href="mailto:srossmanreich@gmail.com?Subject=Hello" target="_top">Contact</a></li>
+        <span class="left-nav">
+          <li><a href="/">Home</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/blogs">Blogs</a></li>
+          <li><a href="/about">About</a></li>
+        </span>
+        <span class="right-nav">
+          <li><a href="/resume">Resume</a></li>
+          <li><a href="mailto:srossmanreich@gmail.com?Subject=Hello" target="_top">Contact</a></li>
+        </span>
       </ul>
     </nav>
-
-    <section id="Projects">
-      <p><a href="/projects"> <strong>Projects</strong> </a> </p>
-      <a href="/projects"><img alt="Projects" src="imgs/projects-photo.jpg"></a>
     </section>
 
-    <section id="Blogs">
-      <p><a href="/blogs"><strong>Blogs</strong></a></p>
-      <a href="/blogs"><img alt="Blogs" src="imgs/blogging.jpg"></a>
-    </section>
+    <section class="main">
+      <ul>
+        <li id="Projects">
+          <a href="/projects"><img alt="Projects" src="imgs/projects-photo.jpg"></a> 
+          <p> <a href="/projects"> <strong>Projects</strong> </a> </p>
+        </li>
 
-    <section id="About">
-      <p><a href="/about"><strong>About</strong></a></p>
-      <a href="/about"><img alt="About" src="imgs/ProfPic.jpg"></a>
-    </section>
+        <li id="Blogs">
+          <a href="/blogs"><img alt="Blogs" src="imgs/blogging.jpg"></a>
+          <p><a href="/blogs"><strong>Blogs</strong> </a> </p>
+        </li>
 
-  </body>
+        <li id="About">
+          <a href="/about"><img alt="About" src="imgs/ProfPic.jpg"></a>
+          <p><a href="/about"><strong>About</strong> </a> </p>
+      </li>
+    </section>
 
   <footer>
-    <a href="https://www.linkedin.com/in/sydneyrossmanreich"><img alt="LinkedIn" src="imgs/LinkedIn.png"></a>
-    <a href="https://twitter.com/Sydkick"><img alt="Twitter" src="imgs/Twitter.jpeg"></a>
-    <a href="mailto:srossmanreich@gmail.com?Subject=Hello" target="_top"><img alt="Email" src="imgs/email.png"></a>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/sydneyrossmanreich"><img alt="LinkedIn" src="imgs/LinkedIn.png"></a></li>
+      <li><a href="https://twitter.com/Sydkick"><img alt="Twitter" src="imgs/Twitter.jpeg"></a></li>
+      <li><a href="mailto:srossmanreich@gmail.com?Subject=Hello" target="_top"><img alt="Email" src="imgs/email.jpg"></a></li>
+    </ul>
   </footer>
 
+</body>
 
 </html>
