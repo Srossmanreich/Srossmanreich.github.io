@@ -1,0 +1,22 @@
+/**************
+TOP & BOTTOM NAV
+**************/
+
+nav, footer {
+	width: 100%;
+	text-align: center;
+}
+
+nav p a, nav p, footer p a {
+	text-decoration: none;
+	padding: 0 10px;
+}
+
+footer {
+	padding-top: 10px
+}
+
+#prev1 {
+	color: white;
+	padding: 0 10px;
+}
