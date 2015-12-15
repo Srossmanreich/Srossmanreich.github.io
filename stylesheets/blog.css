@@ -1,0 +1,50 @@
+/****************
+BLOG PAGE - MAIN CSS
+******************/
+
+.main-blog {
+	clear: both;
+	padding: 15px;
+	margin: 10px;
+}
+
+.main-blog ul {
+	list-style: none;
+}
+
+#DBC-left {
+	float: left;
+}
+
+#Pers-left {
+	float: left;
+}
+
+.main-blog img {
+	width: 200px;
+	height: 200px;
+	margin: 20px 20px 0px 20px;
+	border: 1px solid white;
+	border-radius: 25px
+}
+
+.posts {
+	padding-top: 70px;
+}
+
+.posts li {
+	padding: 10px;
+}
+
+div {
+	clear: both;
+}
+
+/****************
+FOOTER CSS - extra
+******************/
+
+footer {
+	padding-top: 20px;
+}
+
