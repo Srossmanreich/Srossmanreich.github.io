@@ -1,0 +1,27 @@
+/****************
+NAV CSS
+******************/
+
+@media screen and (max-width: 575px) {
+    .right-nav {
+        float: left;
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .right-nav {
+        padding-left: 15px;
+    }
+}
+
+/****************
+BLOCKS
+******************/
+
+@media screen and (max-width: 700px) {
+    .main li {
+        margin-left: 15%;
+    }
+}
+
