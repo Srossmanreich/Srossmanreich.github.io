@@ -10,6 +10,7 @@ BLOG PAGE - MAIN CSS
 
 .main-blog ul {
 	list-style: none;
+	background-color: #077F70;
 }
 
 #DBC-left {
@@ -24,8 +25,29 @@ BLOG PAGE - MAIN CSS
 	width: 200px;
 	height: 200px;
 	margin: 20px 20px 0px 20px;
-	border: 1px solid white;
+	border: 1px solid;
 	border-radius: 25px
+}
+
+#DBCBlog, #PersonalBlog {
+	border-style: solid;
+	border-color: #077F70;
+	border-radius: 25px;
+	padding-bottom: 15%;
+}
+
+#DBCBlog ul li p a, #PersonalBlog ul li p a {
+	text-decoration: none;
+	color: white;
+	padding-left: 10%;
+}
+
+#DBCBlog ul li a img, #PersonalBlog ul li a img {
+	border-color: #077F70;
+}
+
+#DBCBlog {
+	margin-bottom: 2%;
 }
 
 .posts {
@@ -34,6 +56,12 @@ BLOG PAGE - MAIN CSS
 
 .posts li {
 	padding: 10px;
+	clear: right;
+}
+
+.posts li a {
+	text-decoration: none;
+	color: white;
 }
 
 div {
