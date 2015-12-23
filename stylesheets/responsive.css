@@ -10,8 +10,11 @@ NAV CSS
 }
 
 @media screen and (max-width: 525px) {
-    .right-nav {
-        padding-left: 15px;
+    .disappear {
+        display: none;
+    }
+    .left-nav {
+        margin-left:21%;
     }
 }
 
