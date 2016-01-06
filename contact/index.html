@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<!-- CONTACT PAGE -->
+
+<html>
+
+   <head>
+      <title>SRR - Contact</title>
+      <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+      <link rel="stylesheet" type="text/css" href="../stylesheets/contact.css">
+      <link rel="stylesheet" type="text/css" href="../stylesheets/responsive.css">
+   </head>
+
+  <body>
+
+    <header>
+      <a href="index.html" id="logo">
+        <h1>Sydney Rossman-Reich</h1>
+      </a>
+    </header>
+
+    <section class="navbar">
+      <nav>
+        <ul>
+          <span class="left-nav">
+            <li><a href="/">Home</a></li>
+            <span class ="disappear">
+              <li><a href="/projects">Projects</a></li>
+              <li><a href="/blogs">Blogs</a></li>
+              <li><a href="/about">About</a></li>
+            </span>
+          </span>
+          <span class="right-nav">
+            <li><a href="/resume">Resume</a></li>
+            <li><a href="mailto:srossmanreich@gmail.com?Subject=Hello" target="_top">Contact</a></li>
+          </span>
+        </ul>
+      </nav>
+    </section>
+
+    <div class="form">
+      
+      <form id="contact_form" action="mailto:srossmanreich@gmail.com?" method="POST" enctype="multipart/form-data">
+        <div class="row">
+          <label for="name">Your name:</label>
+          <input id="name" class="input" name="name" type="text" value="" size="40" /><br />
+        </div>
+        <div class="row">
+          <label for="email">Your email:</label>
+          <input id="email" class="input" name="email" type="text" value="" size="40" /><br />
+        </div>
+        <div class="row">
+          <label for="message">Your message:</label><br><br>
+          <textarea id="message" class="input" name="message" rows="10" cols="55"></textarea><br />
+        </div>
+        <input id="submit_button" type="submit" value="Send email" />
+    </form>           
+
+    </div>
+
+    <div class="new_button">
+        <p><a href="mailto:srossmanreich@gmail.com?Subject=Hello" target="_top"><strong>Email Me</strong></a></p>
+    </div>
+
+    <div></div>
+
+    <footer>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/sydneyrossmanreich"><img alt="LinkedIn" src="../imgs/LinkedIn.png"></a></li>
+        <li><a href="https://twitter.com/Sydkick"><img alt="Twitter" src="../imgs/Twitter.jpeg"></a></li>
+        <li><a href="mailto:srossmanreich@gmail.com?Subject=Hello" target="_top"><img alt="Email" src="../imgs/email.jpg"></a></li>
+      </ul>
+    </footer>
+
+  </body>
+
+</html>
