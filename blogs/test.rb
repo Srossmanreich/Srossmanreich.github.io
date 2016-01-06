@@ -20,3 +20,7 @@ array2 = Array.new(3,"this object will appear in each of 3 spots in the array")
 array3[0] = "object at index 0"
 hash3["Sydney"] = "Icecream"
 
+#Map method
+
+
+
