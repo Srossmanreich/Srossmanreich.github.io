@@ -1,0 +1,52 @@
+/****************
+CONTACT PAGE - MAIN CSS
+******************/
+
+.form {
+	clear: both;
+	text-align: left;
+	max-width: 50%;
+	border: solid 5px rgb(7, 127, 112);
+	border-radius: 5%;
+	margin: 10% 25%;
+	padding-left: 5%;
+}
+
+.row{
+	margin: 5%;
+}
+
+label {
+	float: left;
+	margin-right: 5%;
+}
+
+input {
+	margin-right: 20%;
+}
+
+#submit_button {
+	margin-bottom: 5%;
+	margin-left: 5%;
+}
+
+.new_button {
+	background-color: rgb(7, 127, 112);
+	color: white;
+	font-size: 2em;
+	max-width: 50%;
+	max-height: 20%;
+	text-align: center;
+	border: 1px solid rgb(7, 127, 112);
+	border-radius: 6%;
+	margin: 20% 25% 10% 25%;
+}
+
+.new_button:hover {
+	background-color: gray;
+}
+
+.new_button p a strong {
+	text-decoration: none;
+	color: white;
+}

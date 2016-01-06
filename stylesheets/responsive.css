@@ -28,3 +28,19 @@ BLOCKS
     }
 }
 
+/****************
+CONTACT FORM
+******************/
+
+@media screen and (max-width: 1000px) {
+    .form {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .new_button {
+        display: none;
+    }
+}
+
