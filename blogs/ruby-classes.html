@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Dev Bootcamp Blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <nav>
+      <p>
+        <span id="prev"><a href="enumerable-methods.html"><- Previous Post</a></span>
+        <span id="blogs-page"><a href="index.html">Blogs Page</a></span>
+        <span id="next"><a href="#">Next Post -></a></span>
+      </p>
+  </nav>
+
+  <main>
+
+    <header>
+      <h1>Dev Bootcamp Phase 0</h1>
+      <h2>Week 6</h2>
+      <h4>January 12, 2016</h4>
+    </header>
+
+    <section>
+      
+      <p>What is a ruby class and why would we use one?</p>
+
+      <p>I like to think of 'classes' as categories. Categories are groups of things that are similar in a lot of ways. For example you might say clothing is a category --- you have shirts and pants and jackets and underwear, but these are all clothing. And, although they have differences, there are a lot of commonalities across these items: 
+        <ul>
+        <li>You can put these items on</li>
+        <li>You have to wash all these items after wearing them</li>
+        <li>They are each made of fabric</li>
+        <li>They each cost money at a store</li>
+        <li>etc ...</li>
+        </ul>
+      </p>
+
+      <p>So if you were creating all of these items in ruby, you *could* just write out all of the methods dealing with these commonalities for every single type of item (shirts, pants, etc.) OR you could create a clothing class and just write these methods one time!</p>
+
+      <p>But let's see this in action .... with a Dog class!</p>
+
+      <p>First I will create a new dog class. When it is initialized (meaning when I create a new instance of the class), I'll ask for a name and set its default hunger ('hungry') to true. You'll notice I create local variables inside the class for these as well (using the '@' symbol) --- this is because I might want to use these for the methods I write inside the class.</p>
+
+      <img src="imgs/class1.png">
+
+      <p>Next I'll create two methods for my dog class. Let's say first, I want my dogs to be able to bark. I can create a method that has them do just that and tells me by printing that they barked to the console. If I wanted to feed them, I could write a method for this too (with the parameter of number of cups of food). Maybe my dogs need more than 2 cups to be full? I can let whoever uses my feed method on a dog they've created from my class know this AND give them a chance to give the dog more. When my dog has been given more than two cups, he or she won't be hungry anymore and I can print this to the console as well. I've done all this in the sample code below:</p>
+
+      <img src="imgs/class2.png">
+
+      <p>Now let's see my dog class in action! I can create a bunch of dogs and feed them without having to write individual methods for them. See below!</p>
+
+      <p>Code:</p>
+
+      <img src="imgs/class3.png">
+
+      <p>Output to the console (note I had to type in 3 myself once prompted to feed Nuni):</p>
+
+      <img src="imgs/class4.png">
+
+      <p>Now you might think to yourself: wow you wrote a ton of code in that class just to save yourself a little bit of space and time re: feeding my dogs. BUT imagine if I wanted to feed 100 dogs or have all 100 of my dogs bark. Think about how much time I saved putting those methods in a new class instead of recreating them over and over again for each dog.</p>
+
+      <p>And this applies to all classes!</p>
+
+      <p>So remember ... if you have a lot of code to write and methods that may repeat on objects you create that also share qualities --- think of creating a class instead!</p>
+
+    </section>
+
+  </main>
+
+  <footer>
+      <p>
+        <span id="all">All posts: </span>
+        <span id="first"><a href="git.html">Week 1: Expecations =/= Reality </a></span>
+        <span id="second"><a href="css-concepts.html">Week 3: Inline vs Inline Block</a></span>
+        <span id="third"><a href="arrays-hashes.html">Week 4: Arrays vs Hashes</a></span>
+        <span id="fourth"><a href="enumerable-methods.html">Week 5: Map Method</a></span>
+        <span id="fifth"><a href="ruby-classes.html">Week 6: Ruby Classes</a></span>
+      </p>
+  </footer>
+
+</body>
+</html>
