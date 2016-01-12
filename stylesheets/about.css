@@ -1,0 +1,40 @@
+/****************
+ABOUT PAGE - MAIN CSS
+******************/
+
+.about {
+	clear:both;
+}
+
+#monkey {
+	float:left;
+	width: 300px;
+	height: 300px;
+	border-radius: 10%;
+	margin: 2% 5%;
+}
+
+#monkey2 {
+	display: none;
+	float:left;
+	width: 300px;
+	height: 300px;
+	border-radius: 10%;
+	margin: 2% 5%;
+}
+
+#about-text h3{
+	padding-top: 2%;
+}
+
+#about-text p{
+	max-width: 80%;
+}
+
+#about-text p a{
+	color: #077F70;
+}
+
+footer {
+	clear:both;
+}

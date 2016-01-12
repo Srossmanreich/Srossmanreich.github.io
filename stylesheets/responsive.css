@@ -44,3 +44,40 @@ CONTACT FORM
     }
 }
 
+/****************
+ABOUT PAGE
+******************/
+
+@media screen and (max-width: 750px) {
+    #monkey {
+        display: none;
+    }
+
+    #monkey2 {
+        display: block;
+        margin-left: 13%;
+        margin-right: 13%;
+    }
+
+    #about-text {
+        float: left;
+        padding-left: 10%;
+        text-align: center;
+    }
+
+    #about-text h3{
+        padding: 0;
+        padding-right: 15%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    #monkey2 {
+        display: none;
+        }
+    }
+
+    .about #about-text {
+        margin-bottom: 10%;
+    }
