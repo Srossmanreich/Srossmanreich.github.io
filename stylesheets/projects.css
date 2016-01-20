@@ -1,0 +1,29 @@
+/****************
+PROJECTS PAGE - MAIN CSS
+******************/
+
+.projects {
+	clear:both;
+}
+
+#alien {
+	float:left;
+	width: 200px;
+	height: 200px;
+	border-radius: 10%;
+	margin: 2% 5% 1% 5%;
+
+}
+
+#alientitle{
+	clear:both;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #077F70;
+}
+
+footer {
+	clear:both;
+}
