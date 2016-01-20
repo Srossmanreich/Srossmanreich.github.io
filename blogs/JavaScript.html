@@ -28,6 +28,89 @@
 
     <section>
       
+      <p>Looping in your code: it can be a beautiful thing and it can be headache inducing. In DBC we've just switched from Ruby to JavaScript. The hardest part of this switch for me has been the change in looping / iterating over objects. You see, ruby has a ton of built-in methods that handle the most challenging aspects of looping for you. JavaScript (at least in its current version) requires a more manual approach to iteration.</p>
+
+      <p>Let me show you what I mean:</p>
+
+      <p><strong>In Ruby:</strong></p>
+
+      <img src="imgs/ruby_array.png">
+
+      <p>Let's say I have the array above and what to access EACH item in the array, I can do that fairly quickly in ruby:</p>
+
+     <img src="imgs/ruby_each.png">
+     <br>
+     <img src="imgs/ruby_each_output.png">
+
+      <p>And if I need to access each item WITH INDEX (or position in the array) too? No problem:</p>
+
+     <img src="imgs/ruby_eachindex.png">
+     <br>
+     <img src="imgs/ruby_eachindex_output.png">
+
+      <p>And what if I needed only some of the items in my array? I can SELECT these fairly easily:</p>
+
+     <img src="imgs/ruby_select.png">
+     <br>
+     <img src="imgs/ruby_select_output.png">
+
+      <p>Or MAP new values to each place in the array:</p>
+
+     <img src="imgs/ruby_map.png">
+     <br>
+     <img src="imgs/ruby_map_output.png">
+
+      <p>I can also iterate over EACH key and value in hashes (what would be an object in JavaScript):</p>
+
+     <img src="imgs/ruby_hash.png">
+     <br>
+     <img src="imgs/ruby_hash_output.png">
+
+      <p>See? Wasn't that simple! Now let's take a look at JavaScript ...</p>
+
+      <p><strong>In JavaScript:</strong></p>
+
+      <p>In JavaScripts latest version, iterating over objects is not quite so simple. Let's see what it takes to do all the iterations I did in Ruby above:</p>
+
+      <p>Our array again:</p>
+
+      <img src="imgs/js_array.png">
+
+      <p>Access each item in an array:</p>
+
+      <img src="imgs/js_each.png">
+      <br>
+      <img src="imgs/js_each_output.png">
+
+      <p>Access each item in an array and its position:</p>
+
+      <img src="imgs/js_eachindex.png">
+      <br>
+      <img src="imgs/js_eachindex_output.png">
+
+      <p>Select only certain items in an array:</p>
+
+      <img src="imgs/js_select.png">
+      <br>
+      <img src="imgs/js_select_output.png">
+
+      <p>Change items in an array:</p>
+
+      <img src="imgs/js_map.png">
+      <br>
+      <img src="imgs/js_map_output.png">
+
+      <p>Iterate over an object (hash in Ruby):</p>
+
+      <img src="imgs/js_hash.png">
+      <br>
+      <img src="imgs/js_hash_output.png">
+
+      <p>-----------------------------------</p>
+
+      <p>You probably already noticed, but most of the above code is more involved and longer for JavaScript. The silver lining with this appears to be that while using JavaScript, you'll have to really be on top of your logic (which can be helpful once you dive deep into more advanced code). Of course the downside (at least for me) is that it is less clean, less DRY, and sometimes (because of how used to Ruby I've become) less intuitive.</p>
+
+      <p>One good piece of news is that I hear the next set of JS standards will include a lot more built-in ruby-like functionality. Can't wait for that!</p>
       
 
     </section>
