@@ -1,0 +1,118 @@
+#document
+<!DOCTYPE html>
+
+<!-- PROJECTS PAGE -->
+
+<html>
+
+   <head>
+      <title>SRR - Alien Game</title>
+      <link rel="stylesheet" type="text/css" href="stylesheet.css">
+      <script type="text/javascript" src="alien.js"></script>
+   </head>
+
+  <body background="imgs/outer_space.jpeg">
+
+    <header>
+
+    <ul>
+      <li id="start"><a id="start_button" href="#" onclick=startGameCommand();> Start a new game</li>
+      <li><a href="../index.html">Exit</a></li>
+    </ul>
+
+    <script>
+        function startGameCommand() {
+        var x = document.getElementById("instruction1");
+        var start = document.getElementById("start");
+          x.style.display = "block"; 
+          start.style.display = "none";          
+        }
+    </script>
+      
+    </header>
+
+    <div id="instruction1">
+      <p>Captain Janeway, we are in dire need of your expert assistance! The aliens have attacked and we need you to defeat them!</p>
+
+      <p id="button1" onclick=startnext1();>Next</p>
+
+      <script>
+        function startnext1() {
+        var x = document.getElementById("instruction1");
+        var y = document.getElementById("instruction2");
+          x.style.display = "none";
+          y.style.display = "block";            
+        }
+    </script>
+
+    </div>
+
+    <div id="instruction2">
+      <p>Your mission is to get the aliens' health to 0 before they can do the same to yours. You both will begin at 100 health and each have the option to attack, heal, or defend.</p>
+
+      <p id="button2" onclick=startnext2();>Next</p>
+
+      <script>
+        function startnext2() {
+        var x = document.getElementById("instruction2");
+        var y = document.getElementById("instruction3");
+          x.style.display = "none";
+          y.style.display = "block";            
+        }
+      </script>
+
+    </div>
+
+    <div id="instruction3">
+      <p>If you attack, you will use one of your three weapons: gun (5 damage), cannon (10 damage), and bomb (40 damage). Unfortunately our earth systems are on the fritz and which weapon you are able to use is up to chance!</p>
+
+      <p>If you heal, you will regenerate your shields (and health) by 10 health points.</p>
+
+      <p>If you defend, your shields will go up and any attack by the aliens their next turn will be absorbed (no damage will be done).</p>
+
+      <p>Remember though: alien technology is similar to earth's --- your alien enemies will be making decisions from the same options as earth!</p>
+
+      <p id="button3" onclick=startnext3();>START</p>
+
+      <script>
+        function startnext3() {
+        var x = document.getElementById("instruction3");
+        var alien = document.getElementById("alienship");
+        var earth = document.getElementById("earthship");
+        var attack = document.getElementById("attackbutton");
+        var heal = document.getElementById("healbutton");
+        var defend = document.getElementById("defendbutton");
+          x.style.display = "none";
+          alien.style.display = "block";
+          earth.style.display = "block";
+          attack.style.display = "inline";
+          heal.style.display = "inline";
+          defend.style.display = "inline";
+        };
+      </script>
+
+    </div>
+
+    <div>
+    <img id="alienship" src="imgs/alienship.png">
+    </div>
+
+    <div>
+    <img id="earthship" src="imgs/earthship.png">
+    </div>
+
+    <div>
+      <ul>
+      <li id="attackbutton"><a id="attack" href="#" onclick=attack(alien,earth);>Attack</li>
+      <li id="healbutton"><a id="heal" href="#" onclick=heal(earth);>Heal</li>
+      <li id="defendbutton"><a id="defend" href="#" onclick=shield(earth);>Shield</li>
+      </ul>
+    </div>
+
+    <footer>
+
+    </footer>
+
+  </body>
+
+</html>

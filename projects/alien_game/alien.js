@@ -1,26 +1,7 @@
- // Design Basic Game Solo Challenge
 
-// This is a solo challenge
+//ALIEN GAME JAVASCRIPT
 
-// Your mission description: Write an alien invastion game
-// Overall mission: Destroy the aliens
-// Goals: Create a random roll game that gives users the chance to beat the aliens (or maybe make peace with them?)
-// Characters: Delenn Janeway
-// Objects: weapons, heals
-// Functions: attack, heal, defend
-
-// Pseudocode
-/*
-Create alien ship object and earth ship object
-Give each a set of health, weapons, heals, and defenses with values for
-each with defining attributes.
-Setup function by which one ship can attack another, heal itself, and
-defend itself.
-Create prompts for the user to play the game.
-*/
-
-// Refactored Code
-
+//Alien Ship
 var alien = {
   name: "Alien",
   health: 100,
@@ -37,6 +18,7 @@ var alien = {
   },
 };
 
+//Earth Ship
 var earth = {
   name: "Earth",
   health: 100,
@@ -97,7 +79,14 @@ var shield = function(target){
   console.log(target.name + "'s shields are now on. " + target.name + "'s health is " + target.health + ".")
 }
 
+//Start the game
 
+var startGameCommand = function(){
+  
+}
+
+
+/*
 //Start the game
 answer1 = prompt("Captain Delenn Janeway! We are in dire need of your expert assistance! The aliens have attacked and we need you to defeat them! Will you help (answer \'y\' or \'n\')?");
 
@@ -144,7 +133,7 @@ while(earth.health > 0 && alien.health > 0){
     break
   };
 };
-
+*/
 
 
 
