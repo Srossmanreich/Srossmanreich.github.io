@@ -82,12 +82,16 @@
         var attack = document.getElementById("attackbutton");
         var heal = document.getElementById("healbutton");
         var defend = document.getElementById("defendbutton");
+        var ahealth = document.getElementById("alienhealth");
+        var ehealth = document.getElementById("earthhealth");
           x.style.display = "none";
           alien.style.display = "block";
           earth.style.display = "block";
           attack.style.display = "inline";
           heal.style.display = "inline";
           defend.style.display = "inline";
+          ahealth.style.display = "block";
+          ehealth.style.display = "block";
         };
       </script>
 
@@ -102,11 +106,55 @@
     </div>
 
     <div>
+      <p id="alienhealth">100</p>
+      <p id="earthhealth">100</p>
+    </div>
+
+    <div>
       <ul>
-      <li id="attackbutton"><a id="attack" href="#" onclick=attack(alien,earth);>Attack</li>
-      <li id="healbutton"><a id="heal" href="#" onclick=heal(earth);>Heal</li>
-      <li id="defendbutton"><a id="defend" href="#" onclick=shield(earth);>Shield</li>
+      <li id="attackbutton"><a id="attack" href="#" onclick=att();>Attack</li>
+      <li id="healbutton"><a id="heal" href="#" onclick=hea();>Heal</li>
+      <li id="defendbutton"><a id="defend" href="#" onclick=def();>Shield</li>
       </ul>
+    </div>
+
+      <script>
+        function att() {
+        
+        };
+
+        function hea() {
+
+        };
+
+        function def() {
+
+        };
+      </script>
+
+<!--Various messages for EARTH MOVE-->
+    <div id="earthmessages">
+    <ul>
+      <li> <span id="attackmiss"> Earth's attack missed! The aliens had their shields up!</span></li>
+      <li> <span id="attackbomb"> Earth attacked with a BOMB for 40 damage!</span></li>
+      <li> <span id="attackcannon"> Earth attacked with a CANNON for 10 damage!</span></li>
+      <li> <span id="attackgun"> Earth attacked with a GUN for 5 damage!</span></li>
+      <li> <span id="healon"> Earth turned on its shield regenerator and healed 10 damage!</span></li>
+      <li> <span id="shieldon"> Earth turned on its shield!</span></li>
+    </ul>
+    </div>
+
+<!--Various messages for ALIEN MOVE-->
+
+    <!--Various messages for EARTH MOVE-->
+    <div id="alienmessages">
+      <ul>
+      <li> <span id="attackmiss2">The aliens' attack missed! Earth had its shields up!</span></li>
+      <li> <span id="attackbomb2">The aliens attacked with a BOMB for 40 damage!</span></li>
+      <li> <span id="attackcannon2">The aliens attacked with a CANNON for 10 damage!</span></li>
+      <li> <span id="attackgun2">The aliens attacked with a GUN for 5 damage!</span></li>
+      <li> <span id="healon2">The aliens turned on its shield regenerator and healed 10 damage!</span></li>
+      <li> <span id="shieldon2">The aliens turned on their shield!</span></li>
     </div>
 
     <footer>
