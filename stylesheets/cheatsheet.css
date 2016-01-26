@@ -1,0 +1,168 @@
+/****************
+CHEATSHEET CSS
+******************/
+
+body {
+	padding: 2%;
+}
+
+h1 {
+	margin-left: 4%;
+}
+
+h1 a {
+	text-decoration: none;
+	color: black;
+}
+
+/*Nav*/
+
+.sidebar {
+	float: left;
+	margin-bottom: 3%;
+}
+
+.sidebar nav ul li {
+	list-style-type: none;
+	border: solid 2px;
+	margin: 4%;
+	padding: 10%;
+	border-radius: 30%;
+
+}
+
+#htmlbutton{
+	color: green;
+}
+
+#htmlbutton:hover{
+	background-color: green;
+}
+
+#cssbutton{
+	color: orange;
+}
+
+#cssbutton:hover{
+	background-color: orange;
+}
+
+#rubybutton{
+	color: red;
+}
+
+#rubybutton:hover{
+	background-color: red;
+}
+
+#jsbutton{
+	color: blue;
+}
+
+#jsbutton:hover{
+	background-color: blue;
+}
+
+#gitbutton{
+	color: gray;
+}
+
+#gitbutton:hover{
+	background-color: gray;
+}
+
+#sqlbutton{
+	color: purple;
+}
+
+#sqlbutton:hover{
+	background-color: purple;
+}
+
+#exitbutton{
+	color: black;
+}
+
+#exitbutton a {
+	text-decoration: none;
+	color: black;
+}
+
+#exitbutton:hover{
+	background-color: black;
+}
+
+/*SECTIONS*/
+
+#instruction{
+	max-width: 70%;
+	padding-left: 22%;
+	margin-left: 20px;
+	padding-top: 0.5%;
+}
+
+#htmlsection{
+	display: none;
+	padding-left: 22%;
+	margin-left: 20px;
+	padding-top: 0.5%;
+}
+
+#csssection{
+	display: none;
+	padding-left: 22%;
+	margin-left: 20px;
+	padding-top: 0.5%;
+}
+
+#rubysection{
+	display: none;
+	padding-left: 22%;
+	margin-left: 20px;
+	padding-top: 0.5%;
+}
+
+#jssection{
+	display: none;
+	padding-left: 22%;
+	margin-left: 20px;
+	padding-top: 0.5%;
+}
+
+#gitsection{
+	display: none;
+	padding-left: 22%;
+	margin-left: 20px;
+	padding-top: 0.5%;
+}
+
+#sqlsection{
+	display: none;
+	padding-left: 22%;
+	margin-left: 20px;
+	padding-top: 0.5%;
+}
+
+/****************
+FOOTER CSS (from default.css)
+******************/
+
+footer {
+	clear: both;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer li {
+  display: inline-block;
+}
+
+footer img {
+	width: 33px;
+	height: 30px;
+	border: 1px solid white;
+	border-radius: 5px
+	
+}

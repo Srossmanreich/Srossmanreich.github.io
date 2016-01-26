@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<!-- Cheatsheet Project -->
+
+<html>
+
+   <head>
+      <title>SRR - Cheatsheet</title>
+      <link rel="stylesheet" type="text/css" href="../../stylesheets/cheatsheet.css">
+      <link rel="stylesheet" type="text/css" href="../../stylesheets/responsive.css">
+   </head>
+
+  <body>
+
+    <header>
+        <h1><a href="cheat-sheet.html">Coding Cheatsheet</a></h1>
+      </a>
+    </header>
+
+    <section class="sidebar">
+     
+      <nav>
+        <ul>
+          <li id="htmlbutton" href="#" onclick=revealhtml();>HTML</li>
+          <li id="cssbutton" href="#" onclick=revealcss();>CSS</li>
+          <li id="rubybutton" href="#" onclick=revealruby();>Ruby</li>
+          <li id="jsbutton" href="#" onclick=revealjs();>JavaScript</li>
+          <li id="gitbutton" href="#" onclick=revealgit();>Git</li>
+          <li id="sqlbutton" href="#" onclick=revealsql();>SQL</li>
+          <li id="exitbutton"><a href="../index.html">Back to projects page</a></li>
+        </ul>
+      </nav>
+
+    <script>
+        function revealhtml() {
+        var i = document.getElementById("instruction");
+        var h = document.getElementById("htmlsection");
+        var c = document.getElementById("csssection");
+        var r = document.getElementById("rubysection");
+        var j = document.getElementById("jssection");
+        var g = document.getElementById("gitsection");
+        var s = document.getElementById("sqlsection");
+          i.style.display = "none"; 
+          h.style.display = "block"; 
+          c.style.display = "none";
+          r.style.display = "none";
+          j.style.display = "none"; 
+          g.style.display = "none";  
+          s.style.display = "none";      
+        }
+
+        function revealcss() {
+        var i = document.getElementById("instruction");
+        var h = document.getElementById("htmlsection");
+        var c = document.getElementById("csssection");
+        var r = document.getElementById("rubysection");
+        var j = document.getElementById("jssection");
+        var g = document.getElementById("gitsection");
+        var s = document.getElementById("sqlsection");
+          i.style.display = "none"; 
+          h.style.display = "none"; 
+          c.style.display = "block";
+          r.style.display = "none";
+          j.style.display = "none"; 
+          g.style.display = "none"; 
+          s.style.display = "none";        
+        }
+
+        function revealruby() {
+        var i = document.getElementById("instruction");
+        var h = document.getElementById("htmlsection");
+        var c = document.getElementById("csssection");
+        var r = document.getElementById("rubysection");
+        var j = document.getElementById("jssection");
+        var g = document.getElementById("gitsection");
+        var s = document.getElementById("sqlsection");
+          i.style.display = "none"; 
+          h.style.display = "none"; 
+          c.style.display = "none";
+          r.style.display = "block";
+          j.style.display = "none"; 
+          g.style.display = "none";
+          s.style.display = "none";         
+        }
+
+        function revealjs() {
+        var i = document.getElementById("instruction");
+        var h = document.getElementById("htmlsection");
+        var c = document.getElementById("csssection");
+        var r = document.getElementById("rubysection");
+        var j = document.getElementById("jssection");
+        var g = document.getElementById("gitsection");
+        var s = document.getElementById("sqlsection");
+          i.style.display = "none"; 
+          h.style.display = "none"; 
+          c.style.display = "none";
+          r.style.display = "none";
+          j.style.display = "block"; 
+          g.style.display = "none";  
+          s.style.display = "none";       
+        }
+
+        function revealgit() {
+        var i = document.getElementById("instruction");
+        var h = document.getElementById("htmlsection");
+        var c = document.getElementById("csssection");
+        var r = document.getElementById("rubysection");
+        var j = document.getElementById("jssection");
+        var g = document.getElementById("gitsection");
+        var s = document.getElementById("sqlsection");
+          i.style.display = "none"; 
+          h.style.display = "none"; 
+          c.style.display = "none";
+          r.style.display = "none";
+          j.style.display = "none"; 
+          g.style.display = "block";
+          s.style.display = "none";         
+        }
+
+        function revealsql() {
+        var i = document.getElementById("instruction");
+        var h = document.getElementById("htmlsection");
+        var c = document.getElementById("csssection");
+        var r = document.getElementById("rubysection");
+        var j = document.getElementById("jssection");
+        var g = document.getElementById("gitsection");
+        var s = document.getElementById("sqlsection");
+          i.style.display = "none"; 
+          h.style.display = "none"; 
+          c.style.display = "none";
+          r.style.display = "none";
+          j.style.display = "none"; 
+          g.style.display = "none";
+          s.style.display = "block";         
+        }
+
+    </script>
+
+    </section>
+
+    <section id="instruction">
+      <p><strong>To see my cheatsheet for the languages listed on the left, just click those buttons!</strong></p>
+      <p>NOTE: This cheatsheet contains frames of other really really thought out and useful cheat sheets. For some great documentation resources visit:</p>
+      <ul>
+        <li>HTML: <a href="http://www.w3schools.com/tags/">w3schools.com</a></li>
+        <li>CSS: <a href="http://www.w3schools.com/cssref/">w3schools.com</a></li>
+        <li>Ruby: <a href="http://ruby-doc.org/">ruby-doc.org</a></li>
+        <li>JavaScript: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN</a></li>
+        <li>Git: <a href="https://git-scm.com/documentation">git-scm.com</a></li>
+        <li>SQL: <a href="https://dev.mysql.com/doc/">dev.mysql.com</a></li>
+      </ul>
+      <p>Also --- head over to <a href="http://overapi.com/">Over API</a> for some great coding cheatsheets!</p>
+    </section>
+
+    <section id="htmlsection">
+        <iframe 
+         src="http://www.webmonkey.com/2010/02/html_cheatsheet/"
+         width="100%" height="500"
+         sandbox>
+          <p>
+            <a href="http://www.webmonkey.com/2010/02/html_cheatsheet/">
+              HTML Cheatsheet from WebMonkey!
+            </a>
+          </p>
+        </iframe>
+    </section>
+
+    <section id="csssection">
+        <iframe 
+         src="http://www.lesliefranke.com/files/reference/csscheatsheet.html"
+         width="100%" height="500"
+         sandbox>
+          <p>
+            <a href="http://www.lesliefranke.com/files/reference/csscheatsheet.html">
+              CSS Cheatsheet from Leslie Frank!
+            </a>
+          </p>
+        </iframe>
+    </section>
+
+    <section id="rubysection">
+        <iframe 
+         src="http://www.zenspider.com/Languages/Ruby/QuickRef.html"
+         width="100%" height="500"
+         sandbox>
+          <p>
+            <a href="http://www.zenspider.com/Languages/Ruby/QuickRef.html">
+              Ruby Cheatsheet from Ryan Davis!
+            </a>
+          </p>
+        </iframe>
+    </section>
+
+    <section id="jssection">
+      <iframe 
+         src="http://www.cheatography.com/davechild/cheat-sheets/javascript/"
+         width="100%" height="500"
+         sandbox>
+          <p>
+            <a href="http://www.cheatography.com/davechild/cheat-sheets/javascript/">
+              JavaScript Cheatsheet from Dave Child!
+            </a>
+          </p>
+        </iframe>
+    </section>
+
+    <section id="gitsection">
+      <iframe 
+         src="http://www.git-tower.com/blog/git-cheat-sheet/"
+         width="100%" height="500"
+         sandbox>
+          <p>
+            <a href="http://www.git-tower.com/blog/git-cheat-sheet/">
+              Git Cheatsheet from Tobias Gunther and Tower!
+            </a>
+          </p>
+        </iframe>
+    </section>
+
+    <section id="sqlsection">
+      <iframe 
+         src="http://www.cheat-sheets.org/sites/sql.su/"
+         width="100%" height="500"
+         sandbox>
+          <p>
+            <a href="http://www.cheat-sheets.org/sites/sql.su/">
+              SQL Cheatsheet from cheat-sheets.org!
+            </a>
+          </p>
+        </iframe>
+    </section>
+
+    <footer>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/sydneyrossmanreich"><img alt="LinkedIn" src="../../imgs/LinkedIn.png"></a></li>
+        <li><a href="https://twitter.com/Sydkick"><img alt="Twitter" src="../../imgs/Twitter.jpeg"></a></li>
+        <li><a href="mailto:srossmanreich@gmail.com?Subject=Hello" target="_top"><img alt="Email" src="../../imgs/email.jpg"></a></li>
+        <li><a href="http://github.com/Srossmanreich" target="_top"><img alt="Email" src="../../imgs/github.png"></a></li>
+      </ul>
+    </footer>
+
+  </body>
+
+</html>

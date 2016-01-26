@@ -4,27 +4,45 @@ PROJECTS PAGE - MAIN CSS
 
 .projects {
 	clear:both;
+	margin-bottom: 3%;
 }
 
-#alien {
-	float:left;
+/*Cheatsheet Project*/
+
+#cheatertitle {
+	margin-left: 5%;
+	margin-bottom: 8%;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: black
+}
+
+#cheaterimg {
 	width: 200px;
 	height: 200px;
 	border-radius: 10%;
-	margin: 2% 5% 1% 5%;
-
+	margin: 2% 2% 1% 5%;
 }
 
-#alientitle{
-	clear:both;
-	margin-left: 5%;
-	margin-bottom: 5%;
+/*Alien Project*/
+
+#alientitle {
+	margin-left: 7%;
+	margin-bottom: 8%;
 	font-weight: bold;
 	font-size: 1.2em;
 	color: black;
 }
 
-#alientitle:hover{
+#alienimg {
+	width: 200px;
+	height: 200px;
+	border-radius: 10%;
+	margin: 2% 5% 1% 2%;
+
+}
+
+#alientitle:hover, #cheatertitle:hover{
 	color: #077F70;
 }
 
