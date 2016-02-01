@@ -1,0 +1,19 @@
+/****************
+FOOTER CSS
+******************/
+
+footer ul {
+  	list-style: none;
+}
+
+footer li {
+  	display: inline-block;
+  	right: 1000;
+}
+
+footer img {
+	width: 33px;
+	height: 30px;
+	border: 1px solid rgba(255,255,255,.75);
+	border-radius: 5%;
+}

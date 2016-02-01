@@ -1,5 +1,5 @@
 /****************
-PROJECTS PAGE - MAIN CSS
+NEW BLOGS PAGE - MAIN CSS
 ******************/
 
 .projects {
@@ -9,13 +9,13 @@ PROJECTS PAGE - MAIN CSS
 
 /*Cheatsheet Project*/
 
-#cheatertitle {
+#DBCtitle {
 	margin-bottom: 8%;
 	font-size: 1.2em;
 	color: white;
 }
 
-#cheaterimg {
+#DBCimg {
 	width: 200px;
 	height: 200px;
 	border-radius: 10%;
@@ -24,14 +24,14 @@ PROJECTS PAGE - MAIN CSS
 
 /*Alien Project*/
 
-#alientitle {
+#Perstitle {
 	margin-left: 7%;
 	margin-bottom: 8%;
 	font-size: 1.2em;
 	color: white;
 }
 
-#alienimg {
+#Persimg {
 	width: 200px;
 	height: 200px;
 	border-radius: 10%;
@@ -39,7 +39,7 @@ PROJECTS PAGE - MAIN CSS
 
 }
 
-#alientitle:hover, #cheatertitle:hover{
+#Perstitle:hover, #DBCtitle:hover{
 	color: black;
 }
 
