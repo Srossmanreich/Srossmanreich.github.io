@@ -1,4 +1,53 @@
 /****************
+NEW!!!! PROJECTS PAGE - MAIN CSS
+******************/
+
+.myprojects {
+	text-align: left;
+}
+
+#coding {
+	float: left;
+	width: 45%;
+	display: inline-block;
+}
+
+#stories {
+	float: left;
+	margin-left: 10%;
+	width: 45%;
+	display: inline-block;
+}
+
+
+.myprojects ul {
+	list-style-type: none;
+}
+
+.myprojects ul li strong a {
+	text-decoration: none;
+	color: #077F70;
+}
+
+.myprojects ul li strong a:hover {
+	text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************
 PROJECTS PAGE - MAIN CSS
 ******************/
 
