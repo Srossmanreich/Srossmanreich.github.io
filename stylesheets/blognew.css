@@ -2,15 +2,73 @@
 NEW BLOGS PAGE - MAIN CSS
 ******************/
 
-.projects {
-	clear:both;
+.inner-cover {
 	margin-bottom: 3%;
+	display: inline-block;
+	clear: both;
 }
 
-/*Cheatsheet Project*/
+/*Code Blog*/
+
+/*.code-with-text {
+    text-align: justify;
+    width: 200px;
+    clear: both;
+    display: inline-block;
+    float: left;
+}
+
+.code-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+/*Personal Blog*/
+
+/*.pers-with-text {
+    text-align: justify;
+    width: 200px;
+    display: inline-block;
+    float: left;
+}
+
+.pers-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+#Perstitle {
+	/*margin-left: 7%;
+	margin-bottom: 8%;*/
+/*	font-size: 1.2em;
+	color: white;
+}
+
+#Persimg {
+	width: 200px;
+	height: 200px;
+	border-radius: 10%;
+	/*margin: 2% 5% 1% 2%;
+
+}
+
+/*Prof Blog
+
+.prof-with-text {
+    text-align: justify;
+    width: 200px;
+    clear: both;
+    display: inline-block;
+    float: left;
+}
+
+.prof-with-text img {
+    display: block;
+    margin: 0 auto;
+}
 
 #DBCtitle {
-	margin-bottom: 8%;
+	/*margin-bottom: 8%;
 	font-size: 1.2em;
 	color: white;
 }
@@ -19,27 +77,16 @@ NEW BLOGS PAGE - MAIN CSS
 	width: 200px;
 	height: 200px;
 	border-radius: 10%;
-	margin: 2% 2% 1% 5%;
+	/*margin: 2% 2% 1% 5%;
 }
 
-/*Alien Project*/
+/*Float
 
-#Perstitle {
-	margin-left: 7%;
-	margin-bottom: 8%;
-	font-size: 1.2em;
-	color: white;
-}
+.float {
+	clear: both;
+}*/
 
-#Persimg {
-	width: 200px;
-	height: 200px;
-	border-radius: 10%;
-	margin: 2% 5% 1% 2%;
-
-}
-
-#Perstitle:hover, #DBCtitle:hover{
+#Perstitle:hover, #DBCtitle:hover, #Codetitle:hover{
 	color: black;
 }
 
