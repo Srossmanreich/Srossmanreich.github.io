@@ -161,3 +161,21 @@ body {
     width: 700px;
   }
 }
+
+/*Sydney Add*/
+
+#learn-btn {
+  padding-top: 25px;
+}
+
+@media (max-height: 500px) {
+  .mastfoot {
+    display: none;
+  }
+}
+
+@media (max-height: 350px) {
+  .mid-content {
+    display: none;
+  }
+}
