@@ -1,3 +1,3 @@
 # Srossmanreich.github.io
-My personal webiste
+My personal website.
 [Check it out!](http://www.sydneyrossmanreich.com/)
