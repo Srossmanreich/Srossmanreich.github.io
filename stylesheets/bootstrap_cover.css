@@ -168,7 +168,7 @@ body {
   padding-top: 25px;
 }
 
-@media (max-height: 500px) {
+@media (max-height: 550px) {
   .mastfoot {
     display: none;
   }
@@ -176,6 +176,12 @@ body {
 
 @media (max-height: 350px) {
   .mid-content {
+    display: none;
+  }
+}
+
+@media (max-height: 410px) {
+  .about-content {
     display: none;
   }
 }
