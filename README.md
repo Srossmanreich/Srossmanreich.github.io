@@ -1,2 +1,3 @@
 # Srossmanreich.github.io
-My DBC Phase 0 github pages site!
+My personal webiste
+!(http://www.sydneyrossmanreich.com/)[Check it out!]
