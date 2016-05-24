@@ -125,6 +125,7 @@ body {
 .mastfoot {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
+  clear: both;
 }
 
 
@@ -182,6 +183,12 @@ body {
 
 @media (max-height: 410px) {
   .about-content {
+    display: none;
+  }
+}
+
+@media (max-height: 500px) {
+  .myprojects {
     display: none;
   }
 }

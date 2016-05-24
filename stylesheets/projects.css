@@ -24,27 +24,20 @@ NEW!!!! PROJECTS PAGE - MAIN CSS
 	list-style-type: none;
 }
 
-.myprojects ul li strong a {
+.myprojects ul li strong {
 	text-decoration: none;
-	color: #077F70;
+	color: #9BEACC;
 }
 
-.myprojects ul li strong a:hover {
-	text-decoration: underline;
-
+.myprojects ul li a:hover {
+	text-decoration: none;
+	color: #9BEACC;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+.myprojects ul {
+    padding: 0;
+    list-style-type: none;
+}
 
 
 /****************
