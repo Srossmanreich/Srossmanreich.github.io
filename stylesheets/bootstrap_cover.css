@@ -187,7 +187,7 @@ body {
   }
 }
 
-@media (max-height: 500px) {
+@media (max-height: 440px) {
   .myprojects {
     display: none;
   }
