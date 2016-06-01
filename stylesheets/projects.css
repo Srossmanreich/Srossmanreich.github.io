@@ -19,7 +19,6 @@ NEW!!!! PROJECTS PAGE - MAIN CSS
 	display: inline-block;
 }
 
-
 .myprojects ul {
 	list-style-type: none;
 }
@@ -39,51 +38,24 @@ NEW!!!! PROJECTS PAGE - MAIN CSS
     list-style-type: none;
 }
 
-
-/****************
-PROJECTS PAGE - MAIN CSS
-******************/
-
-.projects {
-	clear:both;
-	margin-bottom: 3%;
+.scrollable{
+	height:250px;
+	overflow:hidden; 
+	overflow-y:scroll; 
+	margin-top: -100px;
+	margin-left: 15px;
 }
 
-/*Cheatsheet Project*/
-
-#cheatertitle {
-	margin-bottom: 8%;
-	font-size: 1.2em;
-	color: white;
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
 
-#cheaterimg {
-	width: 200px;
-	height: 200px;
-	border-radius: 10%;
-	margin: 2% 2% 1% 5%;
-}
-
-/*Alien Project*/
-
-#alientitle {
-	margin-left: 7%;
-	margin-bottom: 8%;
-	font-size: 1.2em;
-	color: white;
-}
-
-#alienimg {
-	width: 200px;
-	height: 200px;
-	border-radius: 10%;
-	margin: 2% 5% 1% 2%;
-
-}
-
-#alientitle:hover, #cheatertitle:hover{
-	color: black;
-}
 
 footer {
 	clear:both;
