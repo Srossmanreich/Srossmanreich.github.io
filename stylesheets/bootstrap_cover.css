@@ -189,7 +189,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  .masthead {
+  .proj-mast {
     margin-bottom: 100px;
   }
 }
