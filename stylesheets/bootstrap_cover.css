@@ -188,6 +188,12 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .masthead {
+    margin-bottom: 100px;
+  }
+}
+
 @media (max-height: 440px) {
   .myprojects {
     display: none;
