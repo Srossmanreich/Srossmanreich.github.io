@@ -73,6 +73,7 @@ body {
 .masthead-nav > li + li {
   margin-left: 20px;
 }
+
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
@@ -187,9 +188,21 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .proj-mast {
+    margin-bottom: 100px;
+  }
+}
+
 @media (max-height: 440px) {
   .myprojects {
     display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .masthead-nav {
+    margin-right: 40px;
   }
 }
 
